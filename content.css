@@ -1,0 +1,57 @@
+/* GitHub Actions Green Checkboxes - CSS Override */
+
+/* Target grey checkboxes/icons in the right-hand detail panel */
+/* GitHub uses SVG icons with fill colors, so we override the fill property */
+
+/* Target check icons that are grey (skipped or inactive states) */
+.octicon-check-circle-fill[fill="#57606a"],
+.octicon-check-circle-fill[fill="#57606a"] path,
+svg[fill="#57606a"] .octicon-check-circle-fill,
+svg[color="#57606a"] .octicon-check-circle-fill {
+  fill: #1a7f37 !important;
+  color: #1a7f37 !important;
+}
+
+/* Target check icons with grey color classes */
+.octicon-check-circle-fill.color-fg-muted,
+.octicon-check-circle-fill.color-fg-subtle {
+  fill: #1a7f37 !important;
+  color: #1a7f37 !important;
+}
+
+/* Target any check icon in the detail panel that appears grey */
+.js-details-container .octicon-check-circle-fill,
+.timeline-comment .octicon-check-circle-fill,
+.log-line-header .octicon-check-circle-fill {
+  fill: #1a7f37 !important;
+  color: #1a7f37 !important;
+}
+
+/* Target step status indicators */
+.step-status .octicon-check-circle-fill,
+.step-header .octicon-check-circle-fill {
+  fill: #1a7f37 !important;
+  color: #1a7f37 !important;
+}
+
+/* Target job status indicators in detail view */
+.job-status-indicator .octicon-check-circle-fill,
+[data-testid="job-status"] .octicon-check-circle-fill {
+  fill: #1a7f37 !important;
+  color: #1a7f37 !important;
+}
+
+/* Generic override for any grey check icon in the detail panel */
+.js-details-container svg[fill="#57606a"],
+.js-details-container svg[color="#57606a"] {
+  fill: #1a7f37 !important;
+  color: #1a7f37 !important;
+}
+
+/* Target checkboxes in the right sidebar detail view */
+aside .octicon-check-circle-fill,
+.js-details-container aside .octicon-check-circle-fill {
+  fill: #1a7f37 !important;
+  color: #1a7f37 !important;
+}
+
