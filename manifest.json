@@ -3,6 +3,11 @@
   "name": "GitHub Actions Green Checkboxes",
   "version": "1.0.0",
   "description": "Changes grey checkboxes to green in GitHub Actions detail pages",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
   "permissions": [
     "activeTab"
   ],

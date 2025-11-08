@@ -29,7 +29,10 @@ if (fs.existsSync(zipName)) {
 const filesToInclude = [
   'manifest.json',
   'content.js',
-  'content.css'
+  'content.css',
+  'icon-16.png',
+  'icon-48.png',
+  'icon-128.png'
 ];
 
 // Check that all required files exist
@@ -43,7 +46,7 @@ if (missingFiles.length > 0) {
 // Otherwise, you could use a Node.js zip library like 'archiver'
 try {
   const filesList = filesToInclude.join(' ');
-  execSync(`zip -r "${zipName}" ${filesList} -x "*.DS_Store" "*.git/*" "*.sh" "README.md" "*.zip" "package.js"`, {
+  execSync(`zip -r "${zipName}" ${filesList} -x "*.DS_Store" "*.git/*" "*.sh" "README.md" "*.zip" "*.svg" "package.js"`, {
     stdio: 'inherit',
     cwd: __dirname
   });

@@ -28,7 +28,10 @@ zip -r "$ZIP_NAME" \
     manifest.json \
     content.js \
     content.css \
-    -x "*.DS_Store" "*.git/*" "*.sh" "README.md" "*.zip"
+    icon-16.png \
+    icon-48.png \
+    icon-128.png \
+    -x "*.DS_Store" "*.git/*" "*.sh" "README.md" "*.zip" "*.svg" "package.js"
 
 echo -e "${GREEN}✓ Package created: ${ZIP_NAME}${NC}"
 echo -e "${BLUE}Ready for Chrome Web Store upload!${NC}"
