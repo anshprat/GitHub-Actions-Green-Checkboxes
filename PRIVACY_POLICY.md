@@ -4,7 +4,7 @@
 
 ## Overview
 
-GitHub Actions Green Checkboxes is a Chrome extension that enhances the visual appearance of GitHub Actions pages by changing grey checkboxes to green. This privacy policy explains our data practices and commitment to user privacy.
+GitHub Actions Green Checkboxes is a Chrome and Firefox extension that enhances the visual appearance of GitHub Actions pages by changing grey checkboxes to green. This privacy policy explains our data practices and commitment to user privacy.
 
 ## Data Collection and Usage
 
@@ -65,6 +65,7 @@ https://github.com/anshprat/github-actions-green-checkboxes
 
 This extension complies with:
 - Chrome Web Store Developer Program Policies
+- Firefox Add-on Policies
 - General Data Protection Regulation (GDPR)
 - California Consumer Privacy Act (CCPA)
 - Other applicable privacy regulations
